@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+// Responsivlik (Telefon) //
+@media (max-width:576px) {
+    .login-header{
+        text-align: center !important;
+        .left{
+            padding-bottom: 30px;
+        }
+        .right{
+            span{
+                padding: 10px !important;
+            }
+            button{
+                padding: 12px 25px !important;
+                padding: 15px !important;
+
+
+            }
+        }
+    }
+    .orta{
+        .imgdana{
+            display: none !important;
+        }
+        .logindana{
+            padding-left: 2rem !important;
+            padding-top: 13rem !important;
+            .axil-signin-form{
+                h3{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+                .singin-form{
+                    .form-group{
+                        .form-control{
+                            width: 350px !important;
+                        }
+                        button{
+                            padding: 10px 60px !important;
+                        }
+                        a{
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// umumileshdirilmish kodlar
+a {
+    text-decoration: none;
+    color: #212529;
+}
+
+li {
+    list-style: none;
+}
+
+
+// Site's Css
+.login-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+ 
+
+    .right {
+        span {
+            font-size: 14px;
+            padding-right: 25px;
+        }
+
+        button {
+            color: #fff;
+            background-color: #ff497c;
+            border: none;
+            padding: 16px 40px;
+            border-radius: 7px;
+            transition: .5s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.orta {
+overflow: hidden;
+
+    .imgdana {
+        background-image: url(https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      
+      height: 97.6vh;
+      
+
+        h3 {
+            font-size: 28px;
+            font-weight: 500;
+            padding: 10rem 5rem;
+        }
+    }
+    .logindana{
+        padding-left: 18rem;
+        padding-top: 15rem;
+        .axil-signin-form{
+            .title{
+                font-weight: 600;
+            }
+            p{
+                opacity: 0.6;
+                font-size: 13px;
+            }
+            .singin-form{
+                .form-group{
+                    position: relative;
+                    padding-bottom: 35px;
+                    label{
+                        position: absolute;
+                        top: -15px;
+                        left: 31px;
+                        background-color: #fff;
+                        font-size: 14px;
+                        padding: 5px 5px;
+                        opacity: 0.6;
+                        z-index: 2;
+                    }
+                    .form-control{
+                        padding: 18px 30px;
+                        width: 50%;
+                        opacity: 0.6;
+                        z-index: 0;
+                    }
+                    button {
+                        color: #fff;
+                        background-color: #3577f0;
+                        border: none;
+                        padding: 16px 35px;
+                        border-radius: 7px;
+                        transition: .5s;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    a{
+                        padding-right: 23rem;
+                        font-size: 13px;
+                        color: #3577f0;
+                    }
+                }
+            }
+        }
+    }
+}
